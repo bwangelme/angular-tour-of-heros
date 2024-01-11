@@ -3,6 +3,7 @@ import { HEROS } from '../mock-heroes';
 import { NgFor, NgIf, UpperCasePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Hero } from '../hero';
+import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 
 @Component({
   selector: 'app-heroes',
@@ -10,6 +11,7 @@ import { Hero } from '../hero';
   standalone: true,
   styleUrl: './heroes.component.scss',
   imports: [
+    HeroDetailComponent,
     FormsModule,
     NgIf,
     NgFor,
