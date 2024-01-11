@@ -9,12 +9,12 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HeroesComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
